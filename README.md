@@ -79,13 +79,13 @@ fisher update jorgebucaran/fisher
 Say goodbye to installed plugins with the `remove` command.
 
 ```console
-fisher remove jorgebucaran/nvm.fish
+fisher uninstall jorgebucaran/nvm.fish
 ```
 
 Feeling destructive? Wipe out everything, including Fisher itself.
 
 ```console
-fisher list | fisher remove
+fisher list | fisher uninstall
 ```
 
 ## Using your `fish_plugins` file
